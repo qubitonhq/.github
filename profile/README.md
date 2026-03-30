@@ -38,13 +38,20 @@ QubitOn provides enterprise-grade APIs for cleansing, validating, enriching, and
 - **Free to start** — 100 API calls/month, no credit card required
 - **AI-native** — MCP server for Claude, custom GPTs for ChatGPT, function calling for any LLM
 
+### SDKs & Connectors
+
+| Repository | Description | Install |
+|------------|-------------|---------|
+| [**qubiton-go**](https://github.com/qubitonhq/qubiton-go) | Go SDK — 41 methods, full API coverage | `go get github.com/qubitonhq/qubiton-go` |
+| [**qubiton-sap**](https://github.com/qubitonhq/qubiton-sap) | SAP S/4HANA / ECC / BTP native ABAP connector — 41 methods, BAdI screen enhancements, config-driven validation | Import via [abapGit](https://abapgit.org) |
+
 ### Integrations
 
 <table>
 <tr>
 <td align="center"><strong>AI</strong><br/>Claude (MCP), ChatGPT, Copilot, Gemini</td>
-<td align="center"><strong>SDKs</strong><br/>Python, Node.js, Go</td>
-<td align="center"><strong>Enterprise</strong><br/>Salesforce, SAP, Oracle</td>
+<td align="center"><strong>SDKs</strong><br/>Go, Python, Node.js</td>
+<td align="center"><strong>Enterprise</strong><br/>SAP S/4HANA, Salesforce, Oracle</td>
 <td align="center"><strong>Automation</strong><br/>Zapier, Make, Power Automate</td>
 </tr>
 </table>
