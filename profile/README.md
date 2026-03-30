@@ -3,7 +3,7 @@
     <img src="https://www.qubiton.com/og-image.png" alt="QubitOn" width="600" />
   </a>
   <br /><br />
-  <p><strong>Real-time validation, enrichment, and risk analytics for supplier data.</strong></p>
+  <p><strong>Real-time validation, enrichment, and risk analytics for business data.</strong></p>
   <p>
     <a href="https://www.qubiton.com/capabilities">70+ APIs</a> ·
     <a href="https://www.qubiton.com/docs">Documentation</a> ·
