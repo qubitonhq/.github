@@ -31,6 +31,13 @@ QubitOn provides enterprise-grade APIs for cleansing, validating, enriching, and
 | **Risk & Financial** | Credit scores, bankruptcy risk, entity risk assessment |
 | **ESG & Cybersecurity** | ESG scoring, domain security, IP quality |
 
+### Why QubitOn?
+
+- **One integration, 70+ capabilities** — single API key, unified response format, no vendor sprawl
+- **Post-quantum ready** — ML-KEM-768 (FIPS 203) encryption for response fields alongside traditional X.509/RSA
+- **Free to start** — 100 API calls/month, no credit card required
+- **AI-native** — MCP server for Claude, custom GPTs for ChatGPT, function calling for any LLM
+
 ### Integrations
 
 <table>
@@ -55,8 +62,9 @@ Get started free at [www.qubiton.com](https://www.qubiton.com) — 100 API calls
 
 ### Links
 
-- 🌐 [Website](https://www.qubiton.com)
-- 📖 [Documentation](https://www.qubiton.com/docs)
-- 🔌 [API Playground](https://www.qubiton.com/docs/playground)
-- 📊 [System Status](https://www.qubiton.com/status)
-- 📝 [Changelog](https://www.qubiton.com/changelog)
+- [Website](https://www.qubiton.com)
+- [Documentation](https://www.qubiton.com/docs)
+- [API Playground](https://www.qubiton.com/docs/playground)
+- [AI & MCP Integration](https://www.qubiton.com/docs/ai-integration)
+- [System Status](https://www.qubiton.com/status)
+- [Changelog](https://www.qubiton.com/changelog)
