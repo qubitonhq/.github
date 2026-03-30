@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://www.qubiton.com">
-    <img src="https://www.qubiton.com/og-image.png" alt="QubitOn" width="600" />
+    <img src="https://raw.githubusercontent.com/qubitonhq/.github/main/profile/og-image.png" alt="QubitOn" width="600" />
   </a>
   <br /><br />
   <p><strong>Real-time validation, enrichment, and risk analytics for business data.</strong></p>
