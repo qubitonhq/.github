@@ -42,11 +42,11 @@ QubitOn provides enterprise-grade APIs for cleansing, validating, enriching, and
 
 | Repository | Description | Install |
 |------------|-------------|---------|
-| [**qubiton&#8209;go**](https://github.com/qubitonhq/qubiton-go) | Go SDK — 41 methods, full API coverage | `go`&nbsp;`get`&nbsp;`github.com/qubitonhq/qubiton-go` |
-| [**qubiton&#8209;sap**](https://github.com/qubitonhq/qubiton-sap) | SAP S/4HANA / ECC / BTP native ABAP connector — 41 methods, BAdI screen enhancements, config-driven validation | Import&nbsp;via&nbsp;[abapGit](https://abapgit.org) |
-| [**qubiton&#8209;oracle**](https://github.com/qubitonhq/qubiton-oracle) | Oracle PL/SQL native connector — 42 methods, UTL_HTTP/HTTPS, config-driven validation, EBS/Fusion hooks, 70 utPLSQL tests | `@install.sql`&nbsp;in&nbsp;SQL*Plus |
+| <nobr>[**qubiton&#8209;go**](https://github.com/qubitonhq/qubiton-go)</nobr> | Go SDK — 41 methods, full API coverage | <nobr>`go get github.com/qubitonhq/qubiton-go`</nobr> |
+| <nobr>[**qubiton&#8209;sap**](https://github.com/qubitonhq/qubiton-sap)</nobr> | SAP S/4HANA / ECC / BTP native ABAP connector — 41 methods, BAdI screen enhancements, config-driven validation | <nobr>Import via [abapGit](https://abapgit.org)</nobr> |
+| <nobr>[**qubiton&#8209;oracle**](https://github.com/qubitonhq/qubiton-oracle)</nobr> | Oracle PL/SQL native connector — 42 methods, UTL_HTTP/HTTPS, config-driven validation, EBS/Fusion hooks, 70 utPLSQL tests | <nobr>`@install.sql` in SQL*Plus</nobr> |
 
-### Integrations
+### [Integrations](https://www.qubiton.com/integrations)
 
 <table>
 <tr>
