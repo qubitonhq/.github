@@ -46,16 +46,26 @@ QubitOn provides enterprise-grade APIs for cleansing, validating, enriching, and
 | <nobr>[**qubiton&#8209;sap**](https://github.com/qubitonhq/qubiton-sap)</nobr> | SAP S/4HANA / ECC / BTP native ABAP connector — 41 methods, BAdI screen enhancements, config-driven validation | <nobr>Import via [abapGit](https://abapgit.org)</nobr> |
 | <nobr>[**qubiton&#8209;oracle**](https://github.com/qubitonhq/qubiton-oracle)</nobr> | Oracle PL/SQL native connector — 42 methods, UTL_HTTP/HTTPS, config-driven validation, EBS/Fusion hooks, 70 utPLSQL tests | <nobr>`@install.sql` in SQL*Plus</nobr> |
 
-### [Integrations](https://www.qubiton.com/integrations)
+### [31+ Integrations](https://www.qubiton.com/integrations)
+
+Works with the tools your team already uses — ERPs, automation platforms, AI assistants, and developer SDKs.
 
 <table>
 <tr>
-<td align="center"><strong>AI</strong><br/>Claude (MCP), ChatGPT, Copilot, Gemini</td>
-<td align="center"><strong>SDKs</strong><br/>Go, Python, Node.js</td>
-<td align="center"><strong>Enterprise</strong><br/>SAP S/4HANA, Salesforce, Oracle</td>
-<td align="center"><strong>Automation</strong><br/>Zapier, Make, Power Automate</td>
+<td align="center"><strong>🤖 AI & LLMs</strong><br/>Claude (MCP), ChatGPT, Copilot, Gemini, LangChain, LlamaIndex</td>
+<td align="center"><strong>🏢 ERP & Procurement</strong><br/>SAP S/4HANA, Oracle EBS, Oracle Fusion, Coupa, Ariba</td>
+</tr>
+<tr>
+<td align="center"><strong>☁️ CRM & Cloud</strong><br/>Salesforce, HubSpot, Microsoft Dynamics 365, Workday, NetSuite</td>
+<td align="center"><strong>⚡ Automation</strong><br/>Zapier, Make, Power Automate, Workato, Tray.io, MuleSoft</td>
+</tr>
+<tr>
+<td align="center"><strong>💻 Developer SDKs</strong><br/>Go, Python, Node.js, Java, .NET, PHP, Ruby</td>
+<td align="center"><strong>📊 Data & Analytics</strong><br/>Snowflake, Databricks, BigQuery, Power BI, Tableau</td>
 </tr>
 </table>
+
+<p align="center"><a href="https://www.qubiton.com/integrations">View all integrations →</a></p>
 
 ### Quick Start
 
