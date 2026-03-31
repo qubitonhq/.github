@@ -19,6 +19,7 @@ QubitOn is an enterprise-grade API platform for cleansing, validating, enriching
 | [qubiton-sap](https://github.com/qubitonhq/qubiton-sap) | SAP S/4HANA, ECC, BTP | ABAP | Native ABAP class — no middleware, full audit trail via SLG1 |
 | [qubiton-oracle](https://github.com/qubitonhq/qubiton-oracle) | Oracle 11g+, EBS, Fusion | PL/SQL | 3-layer PL/SQL connector with EBS hooks and Fusion Cloud patterns |
 | [qubiton-netsuite](https://github.com/qubitonhq/qubiton-netsuite) | All NetSuite editions | SuiteScript 2.1 | SDF-deployable SuiteApp with address correction accept/reject UI |
+| [qubiton-servicenow](https://github.com/qubitonhq/qubiton-servicenow) | ServiceNow (Washington DC+) | JavaScript | 41-method Script Include with GlideAjax wrappers and field mapping helpers |
 | [qubiton-quickbooks](https://github.com/qubitonhq/qubiton-quickbooks) | QuickBooks Online | TypeScript | OAuth 2.0 connector with webhook-driven vendor/customer validation |
 
 ### Developer SDKs
