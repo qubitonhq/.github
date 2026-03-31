@@ -1,89 +1,68 @@
-<div align="center">
-  <a href="https://www.qubiton.com">
-    <img src="https://raw.githubusercontent.com/qubitonhq/.github/main/profile/og-image.png" alt="QubitOn" width="600" />
-  </a>
-  <br /><br />
-  <p><strong>Real-time validation, enrichment, and risk analytics for business data.</strong></p>
-  <p>
-    <a href="https://www.qubiton.com/capabilities">70+ APIs</a> ·
-    <a href="https://www.qubiton.com/docs">Documentation</a> ·
-    <a href="https://www.qubiton.com/pricing">Pricing</a> ·
-    <a href="https://www.qubiton.com/status">Status</a>
-  </p>
-</div>
+# QubitOn
 
----
+**Real-time validation, enrichment, and risk analytics for business data.**
 
-### What is QubitOn?
+One API key. 70+ capabilities. 250+ countries. 280M+ golden records. 1,200+ data sources.
 
-QubitOn provides enterprise-grade APIs for cleansing, validating, enriching, and appending business data. Validate suppliers, customers, and any business entity across **250+ countries** with **280M+ golden records** and **1,200+ data sources**.
+[www.qubiton.com](https://www.qubiton.com) · [API Documentation](https://www.qubiton.com/docs) · [Free API Key](https://www.qubiton.com/auth/register)
 
-### Capabilities
+## What is QubitOn?
 
-| Category | APIs |
-|----------|------|
-| **Address Validation** | Verify and standardize postal addresses worldwide (USPS CASS certified) |
-| **Tax ID Verification** | 193 countries, 242 tax types — live authority-backed validation |
-| **Bank Account Validation** | IBAN, SWIFT/BIC, routing numbers across 180+ countries |
-| **Sanctions & Compliance** | OFAC, EU, UN, UK HMT screening + PEP checks |
-| **Business Registration** | Official company registration data lookup |
-| **Corporate Structure** | Beneficial ownership, corporate hierarchy, DUNS lookup |
-| **Risk & Financial** | Credit scores, bankruptcy risk, entity risk assessment |
-| **ESG & Cybersecurity** | ESG scoring, domain security, IP quality |
+QubitOn is an enterprise-grade API platform for cleansing, validating, enriching, and assessing business data. A single integration gives you access to address validation, tax ID verification, bank account checks, sanctions screening, corporate structure analysis, ESG scoring, and more.
 
-### Why QubitOn?
+## Open Source Connectors & SDKs
 
-- **One integration, 70+ capabilities** — single API key, unified response format, no vendor sprawl
-- **Post-quantum ready** — ML-KEM-768 (FIPS 203) encryption for response fields alongside traditional X.509/RSA
-- **Free to start** — 100 API calls/month, no credit card required
-- **AI-native** — MCP server for Claude, custom GPTs for ChatGPT, function calling for any LLM
+### Native Enterprise Connectors
 
-### SDKs & Connectors
+| Connector | Platform | Language | Description |
+|-----------|----------|----------|-------------|
+| [qubiton-sap](https://github.com/qubitonhq/qubiton-sap) | SAP S/4HANA, ECC, BTP | ABAP | Native ABAP class — no middleware, full audit trail via SLG1 |
+| [qubiton-oracle](https://github.com/qubitonhq/qubiton-oracle) | Oracle 11g+, EBS, Fusion | PL/SQL | 3-layer PL/SQL connector with EBS hooks and Fusion Cloud patterns |
+| [qubiton-netsuite](https://github.com/qubitonhq/qubiton-netsuite) | All NetSuite editions | SuiteScript 2.1 | SDF-deployable SuiteApp with address correction accept/reject UI |
+| [qubiton-quickbooks](https://github.com/qubitonhq/qubiton-quickbooks) | QuickBooks Online | TypeScript | OAuth 2.0 connector with webhook-driven vendor/customer validation |
 
-| Repository | Description | Install |
-|------------|-------------|---------|
-| <nobr>[**qubiton&#8209;go**](https://github.com/qubitonhq/qubiton-go)</nobr> | Go SDK — 41 methods, full API coverage | <nobr>`go get github.com/qubitonhq/qubiton-go`</nobr> |
-| <nobr>[**qubiton&#8209;sap**](https://github.com/qubitonhq/qubiton-sap)</nobr> | SAP S/4HANA / ECC / BTP native ABAP connector — 41 methods, BAdI screen enhancements, config-driven validation | <nobr>Import via [abapGit](https://abapgit.org)</nobr> |
-| <nobr>[**qubiton&#8209;oracle**](https://github.com/qubitonhq/qubiton-oracle)</nobr> | Oracle PL/SQL native connector — 42 methods, UTL_HTTP/HTTPS, config-driven validation, EBS/Fusion hooks, 70 utPLSQL tests | <nobr>`@install.sql` in SQL*Plus</nobr> |
-| <nobr>[**qubiton&#8209;netsuite**](https://github.com/qubitonhq/qubiton-netsuite)</nobr> | NetSuite SuiteApp native connector — 41 methods, SuiteScript 2.1, config-driven validation, User Event/Map&#8209;Reduce/Client Script hooks, 160 tests | <nobr>Deploy via [SDF](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/chapter_4724921089.html)</nobr> |
+### Developer SDKs
 
-### [31+ Integrations](https://www.qubiton.com/integrations)
+| SDK | Language | Install |
+|-----|----------|---------|
+| [qubiton-go](https://github.com/qubitonhq/qubiton-go) | Go | `go get github.com/qubitonhq/qubiton-go` |
+| Python | Python | Coming soon |
+| Node.js | TypeScript | Coming soon |
+| Java | Java | Coming soon |
+| .NET | C# | Coming soon |
 
-Works with the tools your team already uses — ERPs, automation platforms, AI assistants, and developer SDKs.
+### 30+ Pre-Built Integrations
 
-<table>
-<tr>
-<td align="center"><strong>🤖 AI & LLMs</strong><br/>Claude (MCP), ChatGPT, Copilot, Gemini, LangChain, LlamaIndex</td>
-<td align="center"><strong>🏢 ERP & Procurement</strong><br/>SAP S/4HANA, Oracle EBS, Oracle Fusion, NetSuite, Coupa, Ariba</td>
-</tr>
-<tr>
-<td align="center"><strong>☁️ CRM & Cloud</strong><br/>Salesforce, HubSpot, Microsoft Dynamics 365, Workday</td>
-<td align="center"><strong>⚡ Automation</strong><br/>Zapier, Make, Power Automate, Workato, Tray.io, MuleSoft</td>
-</tr>
-<tr>
-<td align="center"><strong>💻 Developer SDKs</strong><br/>Go, Python, Node.js, Java, .NET, PHP, Ruby</td>
-<td align="center"><strong>📊 Data & Analytics</strong><br/>Snowflake, Databricks, BigQuery, Power BI, Tableau</td>
-</tr>
-</table>
+AI Assistants (ChatGPT, Claude MCP, Copilot, Gemini, Grok) · Workflow Automation (Zapier, Make, n8n, Power Automate) · CRM (Salesforce, HubSpot) · Data Platforms (Snowflake, Databricks, BigQuery) · Middleware (MuleSoft, Boomi, Informatica) · Procurement (Coupa, SAP Ariba, Jaggaer) · Accounting (QuickBooks Online)
 
-<p align="center"><a href="https://www.qubiton.com/integrations">View all integrations →</a></p>
+Browse all integrations at [www.qubiton.com/integrations](https://www.qubiton.com/integrations).
 
-### Quick Start
+## API Capabilities
 
-```bash
-curl -X POST https://api.qubiton.com/api/smartvm-api/ValidateAddress \
-  -H "Authorization: Basic <your-api-key>" \
-  -H "Content-Type: application/json" \
-  -d '{"address": "1600 Pennsylvania Ave NW", "city": "Washington", "state": "DC", "country": "US"}'
-```
+| Category | Examples |
+|----------|----------|
+| **Validation** | Address (249 countries), Tax ID (60+), Bank Account (180+), Email, Phone, Peppol |
+| **Compliance** | Sanctions (OFAC, EU, UN), PEP screening, Disqualified directors, EPA prosecution |
+| **Risk & Financial** | Bankruptcy, Credit score, Entity risk, Payment terms, Exchange rates |
+| **Corporate Intelligence** | Beneficial ownership, Corporate hierarchy, DUNS lookup, Business registration |
+| **Healthcare** | NPI validation, Provider exclusion, MEDPASS |
+| **ESG & Cybersecurity** | ESG scores, Domain security, IP quality |
 
-Get started free at [www.qubiton.com](https://www.qubiton.com) — 100 API calls/month, no credit card required.
+## Getting Started
 
-### Links
+1. **Sign up free** at [www.qubiton.com](https://www.qubiton.com/auth/register) — 100 API calls/month, no credit card
+2. **Get your API key** from Dashboard → API Keys
+3. **Pick your integration** — SDK, native connector, or pre-built integration
+4. **Start validating** — one API call, instant results
 
-- [Website](https://www.qubiton.com)
-- [Documentation](https://www.qubiton.com/docs)
-- [API Playground](https://www.qubiton.com/docs/playground)
-- [AI & MCP Integration](https://www.qubiton.com/docs/ai-integration)
-- [System Status](https://www.qubiton.com/status)
-- [Changelog](https://www.qubiton.com/changelog)
+## MCP Protocol Support
+
+QubitOn is available as a native [Model Context Protocol](https://modelcontextprotocol.io/) server with 37+ tools, 20 workflow prompts, and 7 reference data resources for AI agents.
+
+[MCP Manifest](https://mcp.qubiton.com/.well-known/mcp.json)
+
+## About
+
+QubitOn is built by [apexanalytix](https://www.apexanalytix.com), the global leader in P2P process automation, supplier management, and recovery audit services.
+
+All connectors and SDKs are released under the [MIT License](https://opensource.org/licenses/MIT).
