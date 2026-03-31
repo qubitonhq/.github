@@ -45,6 +45,7 @@ QubitOn provides enterprise-grade APIs for cleansing, validating, enriching, and
 | <nobr>[**qubiton&#8209;go**](https://github.com/qubitonhq/qubiton-go)</nobr> | Go SDK — 41 methods, full API coverage | <nobr>`go get github.com/qubitonhq/qubiton-go`</nobr> |
 | <nobr>[**qubiton&#8209;sap**](https://github.com/qubitonhq/qubiton-sap)</nobr> | SAP S/4HANA / ECC / BTP native ABAP connector — 41 methods, BAdI screen enhancements, config-driven validation | <nobr>Import via [abapGit](https://abapgit.org)</nobr> |
 | <nobr>[**qubiton&#8209;oracle**](https://github.com/qubitonhq/qubiton-oracle)</nobr> | Oracle PL/SQL native connector — 42 methods, UTL_HTTP/HTTPS, config-driven validation, EBS/Fusion hooks, 70 utPLSQL tests | <nobr>`@install.sql` in SQL*Plus</nobr> |
+| <nobr>[**qubiton&#8209;netsuite**](https://github.com/qubitonhq/qubiton-netsuite)</nobr> | NetSuite SuiteApp native connector — 41 methods, SuiteScript 2.1, config-driven validation, User Event/Map&#8209;Reduce/Client Script hooks, 160 tests | <nobr>Deploy via [SDF](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/chapter_4724921089.html)</nobr> |
 
 ### [31+ Integrations](https://www.qubiton.com/integrations)
 
@@ -53,10 +54,10 @@ Works with the tools your team already uses — ERPs, automation platforms, AI a
 <table>
 <tr>
 <td align="center"><strong>🤖 AI & LLMs</strong><br/>Claude (MCP), ChatGPT, Copilot, Gemini, LangChain, LlamaIndex</td>
-<td align="center"><strong>🏢 ERP & Procurement</strong><br/>SAP S/4HANA, Oracle EBS, Oracle Fusion, Coupa, Ariba</td>
+<td align="center"><strong>🏢 ERP & Procurement</strong><br/>SAP S/4HANA, Oracle EBS, Oracle Fusion, NetSuite, Coupa, Ariba</td>
 </tr>
 <tr>
-<td align="center"><strong>☁️ CRM & Cloud</strong><br/>Salesforce, HubSpot, Microsoft Dynamics 365, Workday, NetSuite</td>
+<td align="center"><strong>☁️ CRM & Cloud</strong><br/>Salesforce, HubSpot, Microsoft Dynamics 365, Workday</td>
 <td align="center"><strong>⚡ Automation</strong><br/>Zapier, Make, Power Automate, Workato, Tray.io, MuleSoft</td>
 </tr>
 <tr>
