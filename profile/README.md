@@ -32,6 +32,12 @@ QubitOn is an enterprise-grade API platform for cleansing, validating, enriching
 | Java | Java | Coming soon |
 | .NET | C# | Coming soon |
 
+### Automation Platform Nodes
+
+| Node | Platform | Install |
+|------|----------|---------|
+| [n8n-nodes-qubiton](https://github.com/qubitonhq/n8n-nodes-qubiton) | n8n | `npm install n8n-nodes-qubiton` |
+
 ### 30+ Pre-Built Integrations
 
 AI Assistants (ChatGPT, Claude MCP, Copilot, Gemini, Grok) · Workflow Automation (Zapier, Make, n8n, Power Automate) · CRM (Salesforce, HubSpot) · Data Platforms (Snowflake, Databricks, BigQuery) · Middleware (MuleSoft, Boomi, Informatica) · Procurement (Coupa, SAP Ariba, Jaggaer) · Accounting (QuickBooks Online)
