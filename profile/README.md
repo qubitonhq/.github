@@ -28,7 +28,7 @@ QubitOn is an enterprise-grade API platform for cleansing, validating, enriching
 |-----|----------|---------|
 | [qubiton-go](https://github.com/qubitonhq/qubiton-go) | Go | `go get github.com/qubitonhq/qubiton-go` |
 | Python | Python | Coming soon |
-| Node.js | TypeScript | Coming soon |
+| [@qubiton/sdk](https://www.npmjs.com/package/@qubiton/sdk) | TypeScript | `npm install @qubiton/sdk` |
 | Java | Java | Coming soon |
 | .NET | C# | Coming soon |
 
