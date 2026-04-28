@@ -26,11 +26,13 @@ QubitOn is an enterprise-grade API platform for cleansing, validating, enriching
 
 | SDK | Language | Install |
 |-----|----------|---------|
-| [qubiton-go](https://github.com/qubitonhq/qubiton-go) | Go | `go get github.com/qubitonhq/qubiton-go` |
-| Python | Python | Coming soon |
-| [@qubiton/sdk](https://www.npmjs.com/package/@qubiton/sdk) | TypeScript | `npm install @qubiton/sdk` |
-| Java | Java | Coming soon |
-| .NET | C# | Coming soon |
+| [qubiton-go](https://github.com/qubitonhq/qubiton-go) | Go 1.22+ | `go get github.com/qubitonhq/qubiton-go` |
+| [@qubiton/sdk](https://www.npmjs.com/package/@qubiton/sdk) | TypeScript / Node.js 18+ | `npm install @qubiton/sdk` |
+| [qubiton-dotnet](https://github.com/qubitonhq/qubiton-dotnet) | C# / .NET (netstandard2.0, net6, net8, net10) | `dotnet add package Qubiton.Sdk` |
+| [qubiton-java](https://github.com/qubitonhq/qubiton-java) | Java 11+ | Maven Central: `com.qubiton:qubiton-sdk` |
+| Python | Python 3.9+ | Coming soon |
+
+All SDKs share a unified surface: 44+ typed methods, OAuth2 + API key auth, automatic token refresh on 401, exponential backoff with jitter on 408/429/5xx, `Retry-After` honored (delta-seconds and HTTP-date), typed exception hierarchy, and full coverage of validation, compliance, risk, and enrichment endpoints across 250+ countries.
 
 ### Automation Platform Nodes
 
